@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week 5 Tables</title>
+        <style>
+            body{
+                background-color: green
+            }
+            table, th, td{
+                border:1px solid black;
+                border-collapse: collapse;
+            }
+            th, td{
+                padding: 5px;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <h1>Basic Table:</h1>
+            <table>
+                <tr>
+                    <th style="padding-left: 15px; text-align:left;">First Name</th>
+                    <th style="padding-left: 15px; text-align:left;">Last Name</th>
+                    <th style="padding-left: 15px; text-align:left;">Phone Number</th>
+                    <th style="padding-left: 15px; text-align:left;">Email</th>
+                    <th style="padding-left: 15px; text-align:left;">Undergraduate</th>
+                </tr>
+                <tr>
+                    <td style="padding-left: 15px; text-align:left;">Ritu</td>
+                    <td style="padding-left: 15px; text-align:left;">Rathod</td>
+                    <td style="padding-left: 15px; text-align:left;">9999999</td>
+                    <td style="padding-left: 15px; text-align:left;">rrrrrr@gmail.com</td>
+                    <td style="padding-left: 15px; text-align:left;">No</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h1>Table with style: </h1>
+            <table style="border: 1px solid black; border-collapse: collapse">
+                <tr>
+                    <th style="padding-left: 15px; text-align:left; border: 1px solid black;">First Name</th>
+                    <th style="padding-left: 15px; text-align:left; border: 1px solid black;">Last Name</th>
+                    <th style="padding-left: 15px; text-align:left; border: 1px solid black;">Phone Number</th>
+                    <th style="padding-left: 15px; text-align:left; border: 1px solid black;">Email</th>
+                    <th style="padding-left: 15px; text-align:left; border: 1px solid black;">Undergraduate</th>
+                </tr>
+                <tr>
+                    <td style="padding-left: 15px; text-align:left; border: 1px solid black;">Ritu</td>
+                    <td style="padding-left: 15px; text-align:left; border: 1px solid black;">Rathod</td>
+                    <td style="padding-left: 15px; text-align:left; border: 1px solid black;">9999999</td>
+                    <td style="padding-left: 15px; text-align:left; border: 1px solid black;">rrrrrr@gmail.com</td>
+                    <td style="padding-left: 15px; text-align:left; border: 1px solid black;">No</td>
+                </tr>
+            </table>
+
+        </section>
+
+            <section>
+                <h1>Rowspan: </h1>
+                <table>
+                 <tr>
+                     <th>Name: </th>
+                     <td>Bill Gates</td>
+                 </tr>  
+                 <tr>
+                     <th rowspan="2">Telephone:</th>
+                     <td>444444444</td>
+                 </tr> 
+                 <tr>
+                     <td>4758696768</td>
+                 </tr>
+                </table>
+        </section>
+
+        <section>
+            <h1>Column Span: </h1>
+            <table>
+                <tr>
+                <th colspan="2">Monthly Savings</th>
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$80</td>
+            </tr>
+            </table>
+        </section>
+    </body>
+</html>
