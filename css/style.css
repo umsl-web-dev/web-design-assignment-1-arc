@@ -4,7 +4,7 @@
     font-family: inherit; 
 }
 
-header{
+.background{
     /*these are specs for the background image)*/
     background-image:linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)), url(../1.jpg);
     height: 130vh;
@@ -93,10 +93,9 @@ ul li.active a{
 }
 
 .button{
-    position: absolute;
-    top: 74%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn{
@@ -118,7 +117,7 @@ ul li.active a{
     padding-left: 20px;
     padding-bottom: 7px;
     padding-top: 20px;
-    width: 1248px; 
+    width: auto; 
     height: 150px;
     text-align: left; 
     background-color:rgb(211, 175, 175);
