@@ -134,3 +134,26 @@ ul li.active a{
     display: inline-block;
    
 }
+
+/*SERVICE CSS*/
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+  display: flex;
+  background-color:powderblue;
+}
+
+.column {
+  flex: 50%;
+  padding: 25px;
+}
+
+.row2 {
+  display: flex;
+  background-color:powderblue;
+}
+
+.column2 {
+  flex: 33.33%;
+  padding: 20px;
+}
+
