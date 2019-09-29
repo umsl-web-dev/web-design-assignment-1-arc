@@ -1,21 +1,80 @@
 <html>
-    <head>
-        <title>Contact</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div class="logo">
-            <img src="logo.png">
+  <head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <img src="logo.png" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./aboutpage.html">About Us</a></li>
+        <li><a href="./servicespage.html">Our Services</a></li>
+        <li class="active"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <h3>Contact Form</h3>
+
+    <div class="container">
+      <form>
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height:200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+
+    <!-- TODO: Add alert() on submit that thanks firstname lastname for contacting us. match form to background. add a <ol></ol> and nested list -->
+    <footer class="footer">
+      <div class="footerRow">
+        <div class="footerColumn">
+          <h4><a href="./contactpage.html">Contact Us</a></h4>
+          <p>COCO Collection</p>
+          <p>Sunland Hotels PVT LTD</p>
+          <p>XYZ Villa, 1189</p>
+          <p>SE 29800</p>
+          <p>T: +960 111 333</p>
+          <p>
+            Email us:
+            <a href="mailto:someone@example.com">someone@example.com</a>
+          </p>
         </div>
-            <nav>
-            <ul> 
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./aboutpage.html">About</a></li>
-                <li><a href="./servicespage.html">Services</a></li>
-                <li><a href="./gallerypage.html">Gallery</a></li>
-                <li class="active"><a href="#">Contact</a></li>
-                
-            </ul>
-            </nav> 
-    </body>
-    </html>
+        <div class="footerColumn">
+          <a><img id="footerlogo" src="logo.png"/></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
