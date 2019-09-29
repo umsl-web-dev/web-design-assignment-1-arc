@@ -218,16 +218,16 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
+  border: 1px solid rgb(224, 191, 145);
+  padding: 10px 30px;
+  color: rgb(211, 175, 175);
+  text-decoration: none;
+  transition: 0.6s ease;
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: azure;
 }
 
 .container {

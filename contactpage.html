@@ -1,5 +1,22 @@
 <html>
   <head>
+      <style>
+        label span { color: red; }
+        </style>
+        <script>
+                function validateForm() {
+                
+                    var fName = document.forms["contactForm"]["firstname"].value;
+                    var lName = document.forms["contactForm"]["lastname"].value;                
+                
+                    if(fName === "" || lName === "") {
+                        alert('Please fill out the required fields in the form!');
+                        return false;
+                    }
+
+                    alert('Thank you ' + fName + ' ' + lName + ' for reaching out to us! Someone will contact you shortly');
+                }
+        </script>
     <title>Contact</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -16,11 +33,10 @@
       </ul>
     </nav>
 
-    <h3>Contact Form</h3>
-
     <div class="container">
-      <form>
-        <label for="fname">First Name</label>
+
+      <form name="contactForm" onsubmit="return validateForm()">
+        <label for="fname"><span>*</span>First Name:</label>
         <input
           type="text"
           id="fname"
@@ -28,7 +44,7 @@
           placeholder="Your name.."
         />
 
-        <label for="lname">Last Name</label>
+        <label for="lname"><span>*</span>Last Name:</label>
         <input
           type="text"
           id="lname"
@@ -36,14 +52,14 @@
           placeholder="Your last name.."
         />
 
-        <label for="country">Country</label>
+        <label for="country">Country:</label>
         <select id="country" name="country">
+          <option value="usa">USA</option>
           <option value="australia">Australia</option>
           <option value="canada">Canada</option>
-          <option value="usa">USA</option>
         </select>
 
-        <label for="subject">Subject</label>
+        <label for="subject">Subject:</label>
         <textarea
           id="subject"
           name="subject"
@@ -51,7 +67,7 @@
           style="height:200px"
         ></textarea>
 
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit"/>
       </form>
     </div>
 
