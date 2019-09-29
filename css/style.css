@@ -93,6 +93,15 @@ ul li.active a {
   letter-spacing: 4px;
 }
 
+.title p {
+    text-transform: capitalize;
+    display: block;
+    float: center;
+    color: rgb(233, 205, 167);
+    font-style: oblique;
+    text-align: center;
+}
+
 .button {
   display: flex;
   align-items: center;
@@ -190,6 +199,8 @@ ul li.active a {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  color: rgb(233, 205, 167);
+  font-style: oblique;
 }
 .table tr {
   width: 25%;
@@ -209,7 +220,7 @@ select,
 textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid azure;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -220,8 +231,9 @@ textarea {
 input[type="submit"] {
   border: 1px solid rgb(224, 191, 145);
   padding: 10px 30px;
-  color: rgb(211, 175, 175);
+  color: rgb(229, 211, 186);
   text-decoration: none;
+  background-color: transparent;
   transition: 0.6s ease;
   cursor: pointer;
 }
@@ -232,15 +244,15 @@ input[type="submit"]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
+    url(../1.jpg);
+  padding: 50px;
 }
 
 /*SERVICE CSS*/
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .serviceRow {
   display: flex;
-  background-color: powderblue;
 }
 
 .serviceColumn {
@@ -250,10 +262,90 @@ input[type="submit"]:hover {
 
 .serviceRow2 {
   display: flex;
-  background-color: powderblue;
 }
 
 .serviceColumn2 {
   flex: 33.33%;
   padding: 20px;
+}
+
+.serviceBackground {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
+    url(../coco.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutBackground {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
+    url(../2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutColumn1 {
+    display: flex;
+    flex: 50%;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #e78c23;
+    display: block;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
+    url(../a.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+}
+
+.aboutColumn2 {
+    display: flex;
+    flex: 50%;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #e78c23;
+    display: block;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
+    url(../c.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+}
+
+.aboutDiv {
+    text-align:center;
+    margin-top: 25%
+}
+
+.teamBackground {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
+  url(../img/3.jpg);
+background-size: cover;
+background-position: center;
+height: 130vh;
+}
+
+#teamUl {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+#teamOl {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+#teamLi {
+  display: list-item;
+  text-align: left;
+  float: none !important;
 }
