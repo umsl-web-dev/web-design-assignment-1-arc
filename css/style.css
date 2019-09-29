@@ -167,7 +167,7 @@ ul li.active a {
 }
 
 .column {
-  flex: 55.33%;
+  flex: 50%;
   padding: 3px;
 }
 
@@ -182,53 +182,6 @@ ul li.active a {
   font-style: oblique;
   text-align: center;
   letter-spacing: 4px;
-}
-
-.aboutbutton1 {
-  position: absolute;
-  margin-top: 15px;
-  top: 186%;
-  left: 6%;
-  padding: 5px;
-  transform: translate(-50%, -50%);
-  border: 1px solid orange;
-}
-
-.aboutbtn1 {
-  left: 30px;
-  border: 1px solid rgb(224, 191, 145);
-  padding: 10px 30px;
-  color: rgb(233, 205, 167);
-  text-decoration: none;
-  transition: 0.6s ease;
-}
-
-.aboutbtn1:hover {
-  color: rgb(238, 30, 30);
-}
-
-.aboutbutton2 {
-  position: absolute;
-  margin-top: 15px;
-  top: 186%;
-  left: 57%;
-  padding: 5px;
-  transform: translate(-50%, -50%);
-  border: 1px solid orange;
-}
-
-.aboutbtn2 {
-  left: 30px;
-  border: 1px solid rgb(224, 191, 145);
-  padding: 10px 30px;
-  color: rgb(233, 205, 167);
-  text-decoration: none;
-  transition: 0.6s ease;
-}
-
-.aboutbtn2:hover {
-  background-color: azure;
-  color: rgb(238, 30, 30);
 }
 
 .table {
