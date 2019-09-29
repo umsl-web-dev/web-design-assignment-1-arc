@@ -1,249 +1,252 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: inherit; 
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
 }
 
-.background{
-    /*these are specs for the background image)*/
-    background-image:linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)), url(../1.jpg);
-    height: 130vh;
-    background-size: cover;
-    background-position: center;
+.background {
+  /*these are specs for the background image)*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
+    url(../1.jpg);
+  height: 130vh;
+  background-size: cover;
+  background-position: center;
 }
 
-nav{
-    /* this is the coloured section on top*/
-    width: 100%;
-    height: 80px;
-    background-color:rgb(211, 175, 175);
+nav {
+  /* this is the coloured section on top*/
+  width: 100%;
+  height: 80px;
+  background-color: rgb(211, 175, 175);
 }
-ul{
-    float: right;
-    list-style-type: none;
-    margin-top: 25px;
-    font-size: 19px;
-}
-
-ul li{
-    display: inline-block;
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+  font-size: 19px;
 }
 
-ul li a{
-    text-decoration: none;
-    color: azure;
-    padding: 5px 20px;
-    border: 1px solid transparent azure;
-    transition: 0.6s ease;
+ul li {
+  display: inline-block;
 }
 
-ul li a:hover{
-    background-color: azure;
-    color: rgb(71, 38, 38);
+ul li a {
+  text-decoration: none;
+  color: azure;
+  padding: 5px 20px;
+  border: 1px solid transparent azure;
+  transition: 0.6s ease;
 }
 
-ul li.active a{
-    background-color: azure;
-    color: rgb(71, 38, 38);
-}
-.logo img{
-    float: left;
-    width: 150px;
-    height: 50px;
-    padding-left: 20px;
-    padding-top: 20px;
+ul li a:hover {
+  background-color: azure;
+  color: rgb(71, 38, 38);
 }
 
-.title h1{
-    margin-top: 120px;
-    font-size: 25px;
-    line-height: 1.6;
-    text-transform: capitalize;
-    display: block;
-    float: center;
-    color: rgb(233, 205, 167);
-    font-style: oblique;
-    text-align: center;
-    letter-spacing: 4px;
+ul li.active a {
+  background-color: azure;
+  color: rgb(71, 38, 38);
+}
+.logo img {
+  float: left;
+  width: 150px;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
-.title h2{
-    margin-top: 39px;
-    font-size: 20px;
-    line-height: 1.6;
-    text-transform: capitalize;
-    display: block;
-    float: center;
-    color: rgb(229, 211, 186);
-    font-style: oblique;
-    text-align: center;
-    letter-spacing: 4px;
+.title h1 {
+  margin-top: 120px;
+  font-size: 25px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  display: block;
+  float: center;
+  color: rgb(233, 205, 167);
+  font-style: oblique;
+  text-align: center;
+  letter-spacing: 4px;
 }
 
-.title h3{
-    margin-top: 115px;
-    font-size: 19px;
-    line-height: 1.6;
-    text-transform: capitalize;
-    display: block;
-    float: center;
-    color: rgb(229, 211, 186);
-    text-align: center;
-    letter-spacing: 4px;
+.title h2 {
+  margin-top: 39px;
+  font-size: 20px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  display: block;
+  float: center;
+  color: rgb(229, 211, 186);
+  font-style: oblique;
+  text-align: center;
+  letter-spacing: 4px;
 }
 
-.button{
+.title h3 {
+  margin-top: 115px;
+  font-size: 19px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  display: block;
+  float: center;
+  color: rgb(229, 211, 186);
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.button {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.btn{
-    border: 1px solid rgb(224, 191, 145);
-    padding: 10px 30px;
-    color: rgb(233, 205, 167);
-    text-decoration: none;
-    transition: 0.6s ease;
+.btn {
+  border: 1px solid rgb(224, 191, 145);
+  padding: 10px 30px;
+  color: rgb(233, 205, 167);
+  text-decoration: none;
+  transition: 0.6s ease;
 }
 
-.btn:hover{
-    background-color: azure;
-    color: rgb(71, 38, 38);
+.btn:hover {
+  background-color: azure;
+  color: rgb(71, 38, 38);
 }
 
-.footer{ 
-    left: 0; 
-    bottom: 0;
-    padding-left: 20px;
-    padding-bottom: 7px;
-    padding-top: 20px;
-    width: auto; 
-    height: 150px;
-    text-align: left; 
-    background-color:rgb(211, 175, 175);
-    font-weight: 500;
+.footer {
+  left: 0;
+  bottom: 0;
+  padding-left: 20px;
+  padding-bottom: 7px;
+  padding-top: 20px;
+  width: auto;
+  height: 150px;
+  text-align: left;
+  background-color: rgb(211, 175, 175);
+  font-weight: 500;
 }
 
-.footerlogo{
-   
-    width: 30px;
-    height: 50px;
-    bottom: 30px;
-    align-content: center;
-    display: inline-block;  
+.footerRow {
+  display: flex;
 }
 
-.aboutMainInamge{
-    background-position: center;
+.footerColumn {
+  flex: 50%;
+}
+
+#footerlogo {
+  height: 135px;
+  float: right;
+  padding-right: 20px;
+}
+
+.aboutMainInamge {
+  background-position: center;
 }
 
 .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-    font-size: 13px;
-    text-transform: uppercase;
-    color: #e78c23;
-    letter-spacing: 2px;
-    margin-top: 5px;
-    font-weight: 500;
-    line-height: 1.2;
-    display: block;
-  }
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 55.33%;
-    padding: 3px;
-  }
-
-.about{
-    margin-top: 45px;
-    font-size: 20px;
-    line-height: 1.6;
-    text-transform: capitalize;
-    display: block;
-    float: center;
-    color: rgb(202, 170, 125);
-    font-style: oblique;
-    text-align: center;
-    letter-spacing: 4px;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #e78c23;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  font-weight: 500;
+  line-height: 1.2;
+  display: block;
 }
 
-.aboutbutton1{
-    position: absolute;
-    margin-top: 15px;
-    top: 186%;
-    left: 6%;
-    padding: 5px;
-    transform: translate(-50%, -50%);
-    border: 1px solid orange;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
 }
 
-.aboutbtn1{
-    left: 30px;
-    border: 1px solid rgb(224, 191, 145);
-    padding: 10px 30px;
-    color: rgb(233, 205, 167);
-    text-decoration: none;
-    transition: 0.6s ease;  
+.column {
+  flex: 55.33%;
+  padding: 3px;
 }
 
-.aboutbtn1:hover{
-    color: rgb(238, 30, 30);
+.about {
+  margin-top: 45px;
+  font-size: 20px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  display: block;
+  float: center;
+  color: rgb(202, 170, 125);
+  font-style: oblique;
+  text-align: center;
+  letter-spacing: 4px;
 }
 
-.aboutbutton2{
-    position: absolute;
-    margin-top: 15px;
-    top: 186%;
-    left: 57%;
-    padding: 5px;
-    transform: translate(-50%, -50%);
-    border: 1px solid orange;
+.aboutbutton1 {
+  position: absolute;
+  margin-top: 15px;
+  top: 186%;
+  left: 6%;
+  padding: 5px;
+  transform: translate(-50%, -50%);
+  border: 1px solid orange;
 }
 
-.aboutbtn2{
-    left: 30px;
-    border: 1px solid rgb(224, 191, 145);
-    padding: 10px 30px;
-    color: rgb(233, 205, 167);
-    text-decoration: none;
-    transition: 0.6s ease;
+.aboutbtn1 {
+  left: 30px;
+  border: 1px solid rgb(224, 191, 145);
+  padding: 10px 30px;
+  color: rgb(233, 205, 167);
+  text-decoration: none;
+  transition: 0.6s ease;
 }
 
-.aboutbtn2:hover{
-    background-color: azure;
-    color: rgb(238, 30, 30);
+.aboutbtn1:hover {
+  color: rgb(238, 30, 30);
 }
 
-    .table{
-        border-collapse: collapse;
-        padding: 12px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
+.aboutbutton2 {
+  position: absolute;
+  margin-top: 15px;
+  top: 186%;
+  left: 57%;
+  padding: 5px;
+  transform: translate(-50%, -50%);
+  border: 1px solid orange;
+}
 
-    }
-    .table tr{
-        width:25%;
-        border: 3px solid rgb(236, 176, 63);
-        padding: 8px;
-    }
+.aboutbtn2 {
+  left: 30px;
+  border: 1px solid rgb(224, 191, 145);
+  padding: 10px 30px;
+  color: rgb(233, 205, 167);
+  text-decoration: none;
+  transition: 0.6s ease;
+}
 
-    .table td{
-        width:20%;
-        border: 3px solid rgb(236, 176, 63);
-        padding: 6px;
-        text-align: center;
+.aboutbtn2:hover {
+  background-color: azure;
+  color: rgb(238, 30, 30);
+}
 
-    }
+.table {
+  border-collapse: collapse;
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.table tr {
+  width: 25%;
+  border: 3px solid rgb(236, 176, 63);
+  padding: 8px;
+}
 
+.table td {
+  width: 20%;
+  border: 3px solid rgb(236, 176, 63);
+  padding: 6px;
+  text-align: center;
+}
