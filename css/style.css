@@ -7,7 +7,7 @@
 .background {
   /*these are specs for the background image)*/
   background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
-    url(../1.jpg);
+    url(../img/1.jpg);
   height: 130vh;
   background-size: cover;
   background-position: center;
@@ -245,7 +245,7 @@ input[type="submit"]:hover {
 .container {
   border-radius: 5px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
-    url(../1.jpg);
+    url(../img/1.jpg);
   padding: 50px;
 }
 
@@ -271,14 +271,14 @@ input[type="submit"]:hover {
 
 .serviceBackground {
     background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
-    url(../coco.jpg);
+    url(../img/coco.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .aboutBackground {
     background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
-    url(../2.jpg);
+    url(../img/2.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -291,7 +291,7 @@ input[type="submit"]:hover {
     color: #e78c23;
     display: block;
     background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
-    url(../a.jpg);
+    url(../img/a.jpg);
     background-size: cover;
     background-position: center;
     height: 55vh;
@@ -305,7 +305,7 @@ input[type="submit"]:hover {
     color: #e78c23;
     display: block;
     background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
-    url(../c.jpg);
+    url(../img/c.jpg);
     background-size: cover;
     background-position: center;
     height: 55vh;
